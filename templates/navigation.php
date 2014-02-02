@@ -6,7 +6,6 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <?php
-                print_r($this->model->getNavigation());
                 foreach ($this->model->getNavigation() as $navigationItem) {
                     $active = '';
                     if ($_SERVER["REQUEST_URI"] === $navigationItem["path"]) {

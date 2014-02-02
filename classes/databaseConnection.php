@@ -52,12 +52,14 @@ class DatabaseConnection
         $statement = $conn->prepare("
             SELECT n.id as id, n.label as label, s.path as path, n.parant_navigation_id as parent,
             (SELECT path FROM navigation WHERE id = n.parant_navigation_id) as parent_path
-            FROM navigation n, views s
+            FROM navigation n, sites s
             WHERE n.site_id = s.id
             ORDER BY parent, n.order
         ");
         if ($statement->execute()) {
             $items = $statement->fetchAll();
+        } else {
+            echo "nope";
         }
 
         $navigationItems = array();
@@ -78,7 +80,7 @@ class DatabaseConnection
         $conn = $this->getConnection();
         $statement = $conn->prepare("
             SELECT n.label, s.path
-            FROM footer n, views s
+            FROM footer n, sites s
             WHERE n.site_id = s.id
             ORDER BY n.order
         ");
@@ -92,7 +94,7 @@ class DatabaseConnection
         $conn = $this->getConnection();
         $statement = $conn->prepare("
             SELECT s.path as path, s.label as label, s.content as content, t.content as template
-            FROM views s, templates t
+            FROM sites s, templates t
             WHERE path = ?
             AND s.template_id = t.id
             LIMIT 1
