@@ -8,6 +8,7 @@
 namespace PM;
 
 use PDO;
+use PM\models\NavigationItem;
 use PM\models\Site;
 use PM\models\Template;
 
@@ -188,6 +189,19 @@ class DatabaseConnection
             $statement->bindParam(':id', $obj->getId());
             $statement->bindParam(':name', $obj->getName());
             $statement->bindParam(':content', $obj->getContent());
+            if ($statement->execute()) {
+                return true;
+            }
+        } else if ($obj instanceof NavigationItem) {
+            $conn = $this->getConnection();
+            $statement = $conn->prepare("
+            UPDATE navigation
+            SET label = :label, site_id = :site_id
+            WHERE id = :id
+            ");
+            $statement->bindParam(':id', $obj->getId());
+            $statement->bindParam(':label', $obj->getLabel());
+            $statement->bindParam(':site_id', $obj->getSiteId());
             if ($statement->execute()) {
                 return true;
             }

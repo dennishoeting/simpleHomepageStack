@@ -24,60 +24,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/sites/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="42" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-18.75" vertical-offset="405" max-vertical-offset="1770">
-              <folding>
-                <marker date="1391375425802" expanded="true" signature="1290:1513" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="1345:1513" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="1396:1513" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="1518:4412" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="1690:1738" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="1973:2053" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="2109:2477" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="2232:2477" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="2562:2917" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="2664:2917" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="3003:3335" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="3126:3335" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="3431:3816" placeholder="..." />
-                <marker date="1391375425802" expanded="true" signature="3551:3816" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminNavigation.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/_includes/adminNavigation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="56" selection-start="615" selection-end="615" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foot.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/foot.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="46" selection-start="134" selection-end="187" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="72" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-17.5" vertical-offset="225" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/navigation/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="40" selection-start="1230" selection-end="1273" vertical-scroll-proportion="-13.666667" vertical-offset="317" max-vertical-offset="1305">
+            <state line="11" column="28" selection-start="323" selection-end="323" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
@@ -86,59 +35,17 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/templates/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="42" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.8450704" vertical-offset="360" max-vertical-offset="1440">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/models/Template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="919" selection-end="919" vertical-scroll-proportion="-19.833334" vertical-offset="364" max-vertical-offset="945">
+            <state line="20" column="30" selection-start="504" selection-end="504" vertical-scroll-proportion="0.49019608" vertical-offset="0" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/index.php">
+        <entry file="file://$PROJECT_DIR$/admin/sites/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="250" selection-end="250" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="330">
+            <state line="19" column="3" selection-start="478" selection-end="532" vertical-scroll-proportion="-4.375" vertical-offset="180" max-vertical-offset="1770">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Site.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/models/Site.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="1575">
-              <folding>
-                <element signature="e#6#86#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="databaseConnection.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/databaseConnection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="36" selection-start="2831" selection-end="2831" vertical-scroll-proportion="-16.125" vertical-offset="1083" max-vertical-offset="2955">
-              <folding>
-                <element signature="e#102#110#0" expanded="true" />
-                <marker date="1391374979746" expanded="true" signature="823:918" placeholder="SELECT * FRO..users..." />
-                <marker date="1391374979746" expanded="true" signature="1304:1592" placeholder="SELECT n.id ..navigation..." />
-                <marker date="1391374979746" expanded="true" signature="1404:1465" placeholder="SELECT path ..navigation..." />
-                <marker date="1391374979746" expanded="true" signature="2261:2382" placeholder="SELECT n.lab..footer..." />
-                <marker date="1391374979746" expanded="true" signature="2635:2698" placeholder="SELECT * FRO..navigation..." />
-                <marker date="1391374979746" expanded="true" signature="2979:3010" placeholder="SELECT * FRO..sites..." />
-                <marker date="1391374979746" expanded="true" signature="3251:3490" placeholder="SELECT s.id ..sites..." />
-                <marker date="1391374979746" expanded="true" signature="3771:3813" placeholder="SELECT name,..templates..." />
-                <marker date="1391374979746" expanded="true" signature="4087:4149" placeholder="SELECT * FRO..templates..." />
-                <marker date="1391374979746" expanded="true" signature="4504:4636" placeholder="UPDATE sites..." />
-                <marker date="1391374979746" expanded="true" signature="5204:5296" placeholder="UPDATE templ..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -185,11 +92,13 @@
         <option value="$PROJECT_DIR$/admin/templates/adminNavigation.php" />
         <option value="$PROJECT_DIR$/classes/models/Template.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
-        <option value="$PROJECT_DIR$/classes/databaseConnection.php" />
-        <option value="$PROJECT_DIR$/admin/_includes/adminNavigation.php" />
-        <option value="$PROJECT_DIR$/admin/navigation/index.php" />
         <option value="$PROJECT_DIR$/admin/sites/index.php" />
         <option value="$PROJECT_DIR$/admin/templates/index.php" />
+        <option value="$PROJECT_DIR$/admin/_includes/adminNavigation.php" />
+        <option value="$PROJECT_DIR$/admin/widgets/index.php" />
+        <option value="$PROJECT_DIR$/classes/models/NavigationItem.php" />
+        <option value="$PROJECT_DIR$/classes/databaseConnection.php" />
+        <option value="$PROJECT_DIR$/admin/navigation/index.php" />
       </list>
     </option>
   </component>
@@ -404,6 +313,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -485,6 +412,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/classes/models" />
+      <recent name="$PROJECT_DIR$/admin/widgets" />
       <recent name="$PROJECT_DIR$/admin/templates" />
       <recent name="$PROJECT_DIR$/admin/navigation" />
       <recent name="$PROJECT_DIR$/admin/sites" />
@@ -634,17 +562,18 @@
         <state line="9" column="8" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="990">
           <folding>
             <element signature="e#102#110#0" expanded="true" />
-            <marker date="1391374979746" expanded="true" signature="823:918" placeholder="SELECT * FRO..users..." />
-            <marker date="1391374979746" expanded="true" signature="1304:1592" placeholder="SELECT n.id ..navigation..." />
-            <marker date="1391374979746" expanded="true" signature="1404:1465" placeholder="SELECT path ..navigation..." />
-            <marker date="1391374979746" expanded="true" signature="2261:2382" placeholder="SELECT n.lab..footer..." />
-            <marker date="1391374979746" expanded="true" signature="2635:2698" placeholder="SELECT * FRO..navigation..." />
-            <marker date="1391374979746" expanded="true" signature="2979:3010" placeholder="SELECT * FRO..sites..." />
-            <marker date="1391374979746" expanded="true" signature="3251:3490" placeholder="SELECT s.id ..sites..." />
-            <marker date="1391374979746" expanded="true" signature="3771:3813" placeholder="SELECT name,..templates..." />
-            <marker date="1391374979746" expanded="true" signature="4087:4149" placeholder="SELECT * FRO..templates..." />
-            <marker date="1391374979746" expanded="true" signature="4504:4636" placeholder="UPDATE sites..." />
-            <marker date="1391374979746" expanded="true" signature="5204:5296" placeholder="UPDATE templ..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT n.id ..navigation..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT path ..navigation..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT n.lab..footer..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..navigation..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..sites..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT s.id ..sites..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT name,..templates..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..templates..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="UPDATE sites..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="UPDATE templ..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="UPDATE navig..." />
           </folding>
         </state>
       </provider>
@@ -696,17 +625,18 @@
         <state line="9" column="8" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="990">
           <folding>
             <element signature="e#102#110#0" expanded="true" />
-            <marker date="1391374979746" expanded="true" signature="823:918" placeholder="SELECT * FRO..users..." />
-            <marker date="1391374979746" expanded="true" signature="1304:1592" placeholder="SELECT n.id ..navigation..." />
-            <marker date="1391374979746" expanded="true" signature="1404:1465" placeholder="SELECT path ..navigation..." />
-            <marker date="1391374979746" expanded="true" signature="2261:2382" placeholder="SELECT n.lab..footer..." />
-            <marker date="1391374979746" expanded="true" signature="2635:2698" placeholder="SELECT * FRO..navigation..." />
-            <marker date="1391374979746" expanded="true" signature="2979:3010" placeholder="SELECT * FRO..sites..." />
-            <marker date="1391374979746" expanded="true" signature="3251:3490" placeholder="SELECT s.id ..sites..." />
-            <marker date="1391374979746" expanded="true" signature="3771:3813" placeholder="SELECT name,..templates..." />
-            <marker date="1391374979746" expanded="true" signature="4087:4149" placeholder="SELECT * FRO..templates..." />
-            <marker date="1391374979746" expanded="true" signature="4504:4636" placeholder="UPDATE sites..." />
-            <marker date="1391374979746" expanded="true" signature="5204:5296" placeholder="UPDATE templ..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT n.id ..navigation..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT path ..navigation..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT n.lab..footer..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..navigation..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..sites..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT s.id ..sites..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT name,..templates..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..templates..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="UPDATE sites..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="UPDATE templ..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="UPDATE navig..." />
           </folding>
         </state>
       </provider>
@@ -837,26 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/databaseConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="36" selection-start="2831" selection-end="2831" vertical-scroll-proportion="-16.125" vertical-offset="1083" max-vertical-offset="2955">
-          <folding>
-            <element signature="e#102#110#0" expanded="true" />
-            <marker date="1391374979746" expanded="true" signature="823:918" placeholder="SELECT * FRO..users..." />
-            <marker date="1391374979746" expanded="true" signature="1304:1592" placeholder="SELECT n.id ..navigation..." />
-            <marker date="1391374979746" expanded="true" signature="1404:1465" placeholder="SELECT path ..navigation..." />
-            <marker date="1391374979746" expanded="true" signature="2261:2382" placeholder="SELECT n.lab..footer..." />
-            <marker date="1391374979746" expanded="true" signature="2635:2698" placeholder="SELECT * FRO..navigation..." />
-            <marker date="1391374979746" expanded="true" signature="2979:3010" placeholder="SELECT * FRO..sites..." />
-            <marker date="1391374979746" expanded="true" signature="3251:3490" placeholder="SELECT s.id ..sites..." />
-            <marker date="1391374979746" expanded="true" signature="3771:3813" placeholder="SELECT name,..templates..." />
-            <marker date="1391374979746" expanded="true" signature="4087:4149" placeholder="SELECT * FRO..templates..." />
-            <marker date="1391374979746" expanded="true" signature="4504:4636" placeholder="UPDATE sites..." />
-            <marker date="1391374979746" expanded="true" signature="5204:5296" placeholder="UPDATE templ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/foot.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="46" selection-start="134" selection-end="187" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300">
@@ -866,43 +776,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/_includes/adminNavigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="615" selection-end="615" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="345">
+        <state line="10" column="53" selection-start="540" selection-end="540" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/widgets/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="387" selection-end="387" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/models/NavigationItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="5" selection-start="945" selection-end="945" vertical-scroll-proportion="1.4199656" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/databaseConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="206" column="13" selection-start="6144" selection-end="6144" vertical-scroll-proportion="0.75490195" vertical-offset="2553" max-vertical-offset="3165">
+          <folding>
+            <element signature="e#102#110#0" expanded="true" />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT n.id ..navigation..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT path ..navigation..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT n.lab..footer..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..navigation..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..sites..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT s.id ..sites..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT name,..templates..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..templates..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="UPDATE sites..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="UPDATE templ..." />
+            <marker date="1391376659650" expanded="true" signature="-1:-1" placeholder="UPDATE navig..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sites/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="3" selection-start="478" selection-end="532" vertical-scroll-proportion="-4.375" vertical-offset="180" max-vertical-offset="1770">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/navigation/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="40" selection-start="1230" selection-end="1273" vertical-scroll-proportion="-13.666667" vertical-offset="317" max-vertical-offset="1305">
+        <state line="11" column="28" selection-start="323" selection-end="323" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1575">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/sites/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="42" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-18.75" vertical-offset="405" max-vertical-offset="1770">
-          <folding>
-            <marker date="1391375425802" expanded="true" signature="1290:1513" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="1345:1513" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="1396:1513" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="1518:4412" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="1690:1738" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="1973:2053" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="2109:2477" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="2232:2477" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="2562:2917" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="2664:2917" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="3003:3335" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="3126:3335" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="3431:3816" placeholder="..." />
-            <marker date="1391375425802" expanded="true" signature="3551:3816" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="42" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.8450704" vertical-offset="360" max-vertical-offset="1440">
+        <state line="20" column="30" selection-start="504" selection-end="504" vertical-scroll-proportion="0.49019608" vertical-offset="0" max-vertical-offset="1440">
           <folding />
         </state>
       </provider>
