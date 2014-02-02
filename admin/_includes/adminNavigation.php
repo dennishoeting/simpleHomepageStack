@@ -8,6 +8,7 @@
                 <li><a href="/admin/sites/">Seiten</a></li>
                 <li><a href="/admin/navigation/">Navigation</a></li>
                 <li><a href="/admin/templates/">Templates</a></li>
+                <li><a href="/admin/widgets/">Widgets</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
