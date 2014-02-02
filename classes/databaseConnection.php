@@ -8,6 +8,8 @@
 namespace PM;
 
 use PDO;
+use PM\models\Site;
+use PM\models\Template;
 
 class DatabaseConnection
 {
@@ -41,7 +43,7 @@ class DatabaseConnection
         $statement->bindParam(':name', $username);
         $statement->bindParam(':pass', md5($password));
         if ($statement->execute()) {
-            return count($statement->fetchAll())>0;
+            return count($statement->fetchAll()) > 0;
         }
     }
 
@@ -89,11 +91,37 @@ class DatabaseConnection
         }
     }
 
+    public function getNavigationItem($itemId)
+    {
+        $conn = $this->getConnection();
+        $statement = $conn->prepare("
+            SELECT *
+            FROM navigation
+            WHERE id = :id
+        ");
+        $statement->bindParam(':id', $itemId);
+        if ($statement->execute()) {
+            return $statement->fetch();
+        }
+    }
+
+    public function getSites()
+    {
+        $conn = $this->getConnection();
+        $statement = $conn->prepare("
+            SELECT *
+            FROM sites
+        ");
+        if ($statement->execute()) {
+            return $statement->fetchAll();
+        }
+    }
+
     public function getSite($path)
     {
         $conn = $this->getConnection();
         $statement = $conn->prepare("
-            SELECT s.path as path, s.label as label, s.content as content, t.content as template
+            SELECT s.id as id, s.path as path, s.label as label, s.content as content, t.content as template, t.id as template_id
             FROM sites s, templates t
             WHERE path = ?
             AND s.template_id = t.id
@@ -103,5 +131,67 @@ class DatabaseConnection
             $result = $statement->fetch();
             return $result;
         }
+    }
+
+    public function getTemplates()
+    {
+        $conn = $this->getConnection();
+        $statement = $conn->prepare("
+            SELECT name, id
+            FROM templates
+        ");
+        if ($statement->execute()) {
+            $result = $statement->fetchAll();
+            return $result;
+        }
+    }
+
+    public function getTemplate($id)
+    {
+        $conn = $this->getConnection();
+        $statement = $conn->prepare("
+            SELECT *
+            FROM templates
+            WHERE id = :id
+        ");
+        $statement->bindParam(':id', $id);
+        if ($statement->execute()) {
+            $result = $statement->fetch();
+            return $result;
+        }
+    }
+
+    public function persist($obj)
+    {
+        if ($obj instanceof Site) {
+            $conn = $this->getConnection();
+            $statement = $conn->prepare("
+            UPDATE sites
+            SET path = :path, label = :label, content = :content, template_id = :template_id
+            WHERE id = :id
+            ");
+            $statement->bindParam(':id', $obj->getId());
+            $statement->bindParam(':path', $obj->getPath());
+            $statement->bindParam(':label', $obj->getLabel());
+            $statement->bindParam(':content', $obj->getContent());
+            $statement->bindParam(':template_id', $obj->getTemplateId());
+            if ($statement->execute()) {
+                return true;
+            }
+        } else if ($obj instanceof Template) {
+            $conn = $this->getConnection();
+            $statement = $conn->prepare("
+            UPDATE templates
+            SET name = :name, content = :content
+            WHERE id = :id
+            ");
+            $statement->bindParam(':id', $obj->getId());
+            $statement->bindParam(':name', $obj->getName());
+            $statement->bindParam(':content', $obj->getContent());
+            if ($statement->execute()) {
+                return true;
+            }
+        }
+        return false;
     }
 }

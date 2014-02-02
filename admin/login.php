@@ -36,12 +36,12 @@ include_once($root.'/templates/head.php');
 
         <form role="form" action="login.php" method="post">
             <div class="form-group">
-                <label for="exampleInputEmail1">Nutzer:</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nutzer" name="user">
+                <label for="username">Nutzer:</label>
+                <input type="text" class="form-control" id="username" placeholder="Nutzer" name="user">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Passwort:</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Passwort" name="password">
+                <label for="password">Passwort:</label>
+                <input type="password" class="form-control" id="password" placeholder="Passwort" name="password">
             </div>
             <button type="submit" class="btn btn-default">Anmelden</button>
         </form>

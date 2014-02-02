@@ -5,8 +5,13 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="/admin/sites/">Sites</a></li>
+                <li><a href="/admin/sites/">Seiten</a></li>
+                <li><a href="/admin/navigation/">Navigation</a></li>
                 <li><a href="/admin/templates/">Templates</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/admin/logout.php">Abmelden</a></li>
             </ul>
         </div>
     </nav>
